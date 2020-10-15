@@ -1,0 +1,17 @@
+server:
+  port: 8080
+logging:
+  level:
+    root: INFO
+    org:
+      springframework:
+        data:
+          r2dbc: DEBUG
+      io:
+        r2dbc:
+          h2: DEBUG
+spring:
+  data:
+    mongodb:
+      uri: mongodb://127.0.0.1:27017/whydda
+      database: whydda
