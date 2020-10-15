@@ -1,5 +1,25 @@
 # 몽고디비 설치 방법
 
+## brew 는 명령어로 설치
+
+```
+$ brew tap mongodb/brew
+$ brew install mongodb-community@4.2 or 4.3 or 4.4
+```
+
+### 데이터를 저장할 경로 만들기
+
+---
+
+```
+$ whoami  // 사용자명이 나온다.
+$ sudo mkdir -p /Users/[username]/data/db.
+//위 명령을 치면 password 를 입력하라고 나오는데, mac 비밀번호를 입력하면 된다.
+```
+
+### 서버 실행 종료 명령어
+
+---
 
 ```
 $ brew services start mongodb-community@4.2
